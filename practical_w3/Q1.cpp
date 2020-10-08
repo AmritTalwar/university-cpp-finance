@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-  string name;
+  char name[256];
 
   cout << "What is your name" << endl;
-  cin >> name;
+  cin.getline(name, 256);
   cout << "Hello " << name << endl;
 
   return 0;
